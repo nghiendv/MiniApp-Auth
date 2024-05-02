@@ -1,9 +1,5 @@
-/**
- * @format
- */
-
-import {AppRegistry} from 'react-native';
-import App from './App';
-import {name as appName} from './app.json';
-
-AppRegistry.registerComponent(appName, () => App);
+export * from './src/contexts/AuthContext';
+export * from './src/providers/AuthProvider';
+export * from './src/screens/AccountScreen';
+export * from './src/screens/SignInScreen';
+export * from './src/services/AuthService';
